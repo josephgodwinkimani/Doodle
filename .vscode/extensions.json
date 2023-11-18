@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "devsense.composer-php-vscode",
+        "devsense.intelli-php-vscode",
+        "devsense.phptools-vscode",
+        "devsense.profiler-php-vscode",
+        "tabnine.tabnine-vscode",
+        "snyk-security.snyk-vulnerability-scanner",
+        "junstyle.twig-language",
+        "mrmlnc.vscode-pugbeautify"
+    ]
+}

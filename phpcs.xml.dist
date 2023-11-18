@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Doodle-coding-standard">    
+    <arg name="basepath" value="."/>
+    <arg name="extensions" value="php"/>
+    <arg name="colors" />
+
+    <!-- Show progress of the run -->
+    <arg value="p"/>
+
+    <!--Show sniff codes in all reports -->
+    <arg value="s"/>
+
+    <!-- Include the whole Symfony standard -->
+    <rule ref="vendor/escapestudios/symfony2-coding-standard/Symfony/ruleset.xml"><!-- relative path to your ruleset.xml -->
+        <!-- sniffs to exclude -->
+        <exclude name="Symfony.Commenting.ClassComment.Missing" />
+        <exclude name="Symfony.Commenting.FunctionComment.Missing" />
+        <exclude name="Symfony.Commenting.License.Warning" />
+        <exclude name="Symfony.Functions.Arguments.Invalid" />
+        <exclude name="Symfony.NamingConventions.ValidClassName.InvalidInterfaceName" />
+        <exclude name="Symfony.NamingConventions.ValidClassName.InvalidTraitName" />
+        <exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound" />
+    </rule>
+
+    <rule ref="Symfony.Commenting.FunctionComment.MissingParamTag">
+        <severity>0</severity>
+    </rule>
+
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="180" />
+            <property name="absoluteLineLimit" value="180" />
+        </properties>
+    </rule>
+    
+    <!-- Exclude project specific files if you want -->
+    <!-- <exclude-pattern>WakkaFormatter</exclude-pattern> -->
+    <rule ref="PHPCompatibility" />
+    <config name="testVersion" value="8.2" />
+
+    <!-- Include full Doctrine Coding Standard -->
+    <!-- <rule ref="Doctrine"/> -->
+
+    <!-- Path to directory which are checked. -->
+    <!-- <file>src/Project/</file> -->
+    <file>src/</file>
+    <file>tests/</file>
+
+    <!-- <exclude-pattern>*/src/Project/*/*\.(inc|css|js|php)$</exclude-pattern> -->
+    <phpcs.ignorePatterns>
+        <exclude-pattern>*/vendor/*</exclude-pattern>
+        <exclude-pattern>*/Cache/*</exclude-pattern>
+        <!-- <exclude-pattern>*/tests/*</exclude-pattern> -->
+    </phpcs.ignorePatterns>
+</ruleset>

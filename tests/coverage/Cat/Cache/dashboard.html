@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard for Doodle\Cat\Cache</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="../../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="../../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="../../_css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../../index.html">Doodle</a></li>
+                            <li class="breadcrumb-item"><a href="../index.html">Cat</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Cache</a></li>
+                            <li class="breadcrumb-item active">(Dashboard)</li>
+
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Classes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Coverage Distribution</h3>
+                <div id="classCoverageDistribution" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Complexity</h3>
+                <div id="classComplexity" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Insufficient Coverage</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th class="text-right">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a
+                                        href="35/35ccaee8e5f676d09611769962b8967a.php.html#16">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="45/4500b48e116e76b2a58a65881ed61667.php.html#16">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="cb/cb86924f14e040296217574f94fe0914.php.html#16">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Project Risks</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a
+                                        href="45/4500b48e116e76b2a58a65881ed61667.php.html#16">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9</a>
+                                </td>
+                                <td class="text-right">557262</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="cb/cb86924f14e040296217574f94fe0914.php.html#16">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de</a>
+                                </td>
+                                <td class="text-right">272</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="35/35ccaee8e5f676d09611769962b8967a.php.html#16">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff</a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Methods</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Coverage Distribution</h3>
+                <div id="methodCoverageDistribution" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Complexity</h3>
+                <div id="methodComplexity" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Insufficient Coverage</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th class="text-right">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#21"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#34"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#60"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::block_body">block_body</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#68"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#73"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#78"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#83"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#21"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#81"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#192"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget">block_form_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#206"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_simple">block_form_widget_simple</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#231"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_compound">block_form_widget_compound</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#252"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_collection_widget">block_collection_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#265"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_textarea_widget">block_textarea_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#277"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget">block_choice_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#291"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_expanded">block_choice_widget_expanded</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#336"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_collapsed">block_choice_widget_collapsed</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#390"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_options">block_choice_widget_options</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#461"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_checkbox_widget">block_checkbox_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#479"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_radio_widget">block_radio_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#497"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_datetime_widget">block_datetime_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#523"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_date_widget">block_date_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#546"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_time_widget">block_time_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#577"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_dateinterval_widget">block_dateinterval_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#700"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_number_widget">block_number_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#710"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_integer_widget">block_integer_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#720"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_money_widget">block_money_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#728"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_url_widget">block_url_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#738"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_search_widget">block_search_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#748"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_percent_widget">block_percent_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#762"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_password_widget">block_password_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#772"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_widget">block_hidden_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#782"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_email_widget">block_email_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#792"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_range_widget">block_range_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#802"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_widget">block_button_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#850"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_submit_widget">block_submit_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#860"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_reset_widget">block_reset_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#870"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_tel_widget">block_tel_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#880"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_color_widget">block_color_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#890"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_week_widget">block_week_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#915"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_label">block_form_label</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#986"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_label">block_button_label</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#992"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_help">block_form_help</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1039"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_repeated_row">block_repeated_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1047"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_row">block_form_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1082"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_row">block_button_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1104"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_row">block_hidden_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1112"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form">block_form</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1124"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_start">block_form_start</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1169"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_end">block_form_end</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1182"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_errors">block_form_errors</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1228"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rest">block_form_rest</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1290"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rows">block_form_rows</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1327"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_attributes">block_widget_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1349"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_container_attributes">block_widget_container_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1363"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_attributes">block_button_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1380"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_attributes">block_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1438"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1443"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1448"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#21"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#32"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doGetParent">doGetParent</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#38"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#46"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::block_body">block_body</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#68"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#73"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#78"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#83"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Project Risks</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#577"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_dateinterval_widget">block_dateinterval_widget</abbr></a>
+                                </td>
+                                <td class="text-right">7140</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#915"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_label">block_form_label</abbr></a>
+                                </td>
+                                <td class="text-right">4692</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#336"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_collapsed">block_choice_widget_collapsed</abbr></a>
+                                </td>
+                                <td class="text-right">3192</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#390"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_options">block_choice_widget_options</abbr></a>
+                                </td>
+                                <td class="text-right">2550</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#802"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_widget">block_button_widget</abbr></a>
+                                </td>
+                                <td class="text-right">2162</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1380"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_attributes">block_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">1722</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#992"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_help">block_form_help</abbr></a>
+                                </td>
+                                <td class="text-right">1406</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1228"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rest">block_form_rest</abbr></a>
+                                </td>
+                                <td class="text-right">1260</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1124"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_start">block_form_start</abbr></a>
+                                </td>
+                                <td class="text-right">1056</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#546"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_time_widget">block_time_widget</abbr></a>
+                                </td>
+                                <td class="text-right">650</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1047"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_row">block_form_row</abbr></a>
+                                </td>
+                                <td class="text-right">380</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#206"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_simple">block_form_widget_simple</abbr></a>
+                                </td>
+                                <td class="text-right">306</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#890"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_week_widget">block_week_widget</abbr></a>
+                                </td>
+                                <td class="text-right">240</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#291"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_expanded">block_choice_widget_expanded</abbr></a>
+                                </td>
+                                <td class="text-right">210</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1182"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_errors">block_form_errors</abbr></a>
+                                </td>
+                                <td class="text-right">182</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#497"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_datetime_widget">block_datetime_widget</abbr></a>
+                                </td>
+                                <td class="text-right">156</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#523"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_date_widget">block_date_widget</abbr></a>
+                                </td>
+                                <td class="text-right">156</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1290"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rows">block_form_rows</abbr></a>
+                                </td>
+                                <td class="text-right">156</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1327"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_attributes">block_widget_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">132</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#748"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_percent_widget">block_percent_widget</abbr></a>
+                                </td>
+                                <td class="text-right">110</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#252"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_collection_widget">block_collection_widget</abbr></a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+                            <tr>
+                                <td><a href="cb/cb86924f14e040296217574f94fe0914.php.html#46"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::block_body">block_body</abbr></a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#231"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_compound">block_form_widget_compound</abbr></a>
+                                </td>
+                                <td class="text-right">72</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1363"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_attributes">block_button_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">72</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#461"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_checkbox_widget">block_checkbox_widget</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#479"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_radio_widget">block_radio_widget</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1112"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form">block_form</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1169"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_end">block_form_end</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1082"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_row">block_button_row</abbr></a>
+                                </td>
+                                <td class="text-right">42</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1349"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_container_attributes">block_widget_container_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">42</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#192"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget">block_form_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#277"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget">block_choice_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#700"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_number_widget">block_number_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#710"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_integer_widget">block_integer_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#728"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_url_widget">block_url_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#738"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_search_widget">block_search_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#762"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_password_widget">block_password_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#772"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_widget">block_hidden_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#782"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_email_widget">block_email_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#792"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_range_widget">block_range_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#850"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_submit_widget">block_submit_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#860"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_reset_widget">block_reset_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#870"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_tel_widget">block_tel_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#880"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_color_widget">block_color_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="35/35ccaee8e5f676d09611769962b8967a.php.html#34"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#265"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_textarea_widget">block_textarea_widget</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#720"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_money_widget">block_money_widget</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="45/4500b48e116e76b2a58a65881ed61667.php.html#1104"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_row">block_hidden_row</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            <p>
+                <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage"
+                        target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/"
+                        target="_top">PHP 8.2.11</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Fri Nov 17
+                    16:01:09 EAT 2023.</small>
+            </p>
+        </footer>
+    </div>
+    <script src="../../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+    <script src="../../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+    <script src="../../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            nv.addGraph(function () {
+                var chart = nv.models.multiBarChart();
+                chart.tooltips(false)
+                    .showControls(false)
+                    .showLegend(false)
+                    .reduceXTicks(false)
+                    .staggerLabels(true)
+                    .yAxis.tickFormat(d3.format('d'));
+
+                d3.select('#classCoverageDistribution svg')
+                    .datum(getCoverageDistributionData([3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "Class Coverage"))
+                    .transition().duration(500).call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            nv.addGraph(function () {
+                var chart = nv.models.multiBarChart();
+                chart.tooltips(false)
+                    .showControls(false)
+                    .showLegend(false)
+                    .reduceXTicks(false)
+                    .staggerLabels(true)
+                    .yAxis.tickFormat(d3.format('d'));
+
+                d3.select('#methodCoverageDistribution svg')
+                    .datum(getCoverageDistributionData([68, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "Method Coverage"))
+                    .transition().duration(500).call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            function getCoverageDistributionData(data, label) {
+                var labels = [
+                    '0%',
+                    '0-10%',
+                    '10-20%',
+                    '20-30%',
+                    '30-40%',
+                    '40-50%',
+                    '50-60%',
+                    '60-70%',
+                    '70-80%',
+                    '80-90%',
+                    '90-100%',
+                    '100%'
+                ];
+                var values = [];
+                $.each(labels, function (key) {
+                    values.push({ x: labels[key], y: data[key] });
+                });
+
+                return [
+                    {
+                        key: label,
+                        values: values,
+                        color: "#4572A7"
+                    }
+                ];
+            }
+            nv.addGraph(function () {
+                var chart = nv.models.scatterChart()
+                    .showDistX(true)
+                    .showDistY(true)
+                    .showLegend(false)
+                    .forceX([0, 100]);
+                chart.tooltipContent(function (graph) {
+                    return '<p>' + graph.point.class + '</p>';
+                });
+
+                chart.xAxis.axisLabel('Code Coverage (in percent)');
+                chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+                d3.select('#classComplexity svg')
+                    .datum(getComplexityData([[0, 9, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#16\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff<\/a>"], [0, 746, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#16\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9<\/a>"], [0, 16, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#16\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de<\/a>"]], 'Class Complexity'))
+                    .transition()
+                    .duration(500)
+                    .call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            nv.addGraph(function () {
+                var chart = nv.models.scatterChart()
+                    .showDistX(true)
+                    .showDistY(true)
+                    .showLegend(false)
+                    .forceX([0, 100]);
+                chart.tooltipContent(function (graph) {
+                    return '<p>' + graph.point.class + '</p>';
+                });
+
+                chart.xAxis.axisLabel('Code Coverage (in percent)');
+                chart.yAxis.axisLabel('Method Complexity');
+
+                d3.select('#methodComplexity svg')
+                    .datum(getComplexityData([[0, 1, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#21\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::__construct<\/a>"], [0, 3, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#34\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::doDisplay<\/a>"], [0, 1, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#60\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::block_body<\/a>"], [0, 1, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#68\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getTemplateName<\/a>"], [0, 1, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#73\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::isTraitable<\/a>"], [0, 1, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#78\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getDebugInfo<\/a>"], [0, 1, "<a href=\"35\/35ccaee8e5f676d09611769962b8967a.php.html#83\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getSourceContext<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#21\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::__construct<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#81\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::doDisplay<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#192\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget<\/a>"], [0, 17, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#206\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_simple<\/a>"], [0, 8, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#231\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_compound<\/a>"], [0, 9, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#252\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_collection_widget<\/a>"], [0, 3, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#265\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_textarea_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#277\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget<\/a>"], [0, 14, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#291\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_expanded<\/a>"], [0, 56, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#336\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_collapsed<\/a>"], [0, 50, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#390\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_options<\/a>"], [0, 7, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#461\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_checkbox_widget<\/a>"], [0, 7, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#479\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_radio_widget<\/a>"], [0, 12, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#497\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_datetime_widget<\/a>"], [0, 12, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#523\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_date_widget<\/a>"], [0, 25, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#546\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_time_widget<\/a>"], [0, 84, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#577\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_dateinterval_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#700\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_number_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#710\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_integer_widget<\/a>"], [0, 3, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#720\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_money_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#728\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_url_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#738\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_search_widget<\/a>"], [0, 10, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#748\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_percent_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#762\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_password_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#772\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#782\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_email_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#792\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_range_widget<\/a>"], [0, 46, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#802\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#850\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_submit_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#860\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_reset_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#870\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_tel_widget<\/a>"], [0, 4, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#880\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_color_widget<\/a>"], [0, 15, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#890\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_week_widget<\/a>"], [0, 68, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#915\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_label<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#986\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_label<\/a>"], [0, 37, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#992\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_help<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1039\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_repeated_row<\/a>"], [0, 19, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1047\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_row<\/a>"], [0, 6, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1082\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_row<\/a>"], [0, 3, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1104\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_row<\/a>"], [0, 7, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1112\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form<\/a>"], [0, 32, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1124\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_start<\/a>"], [0, 7, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1169\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_end<\/a>"], [0, 13, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1182\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_errors<\/a>"], [0, 35, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1228\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rest<\/a>"], [0, 12, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1290\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rows<\/a>"], [0, 11, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1327\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_attributes<\/a>"], [0, 6, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1349\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_container_attributes<\/a>"], [0, 8, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1363\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_attributes<\/a>"], [0, 41, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1380\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_attributes<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1438\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getTemplateName<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1443\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getDebugInfo<\/a>"], [0, 1, "<a href=\"45\/4500b48e116e76b2a58a65881ed61667.php.html#1448\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getSourceContext<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#21\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::__construct<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#32\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doGetParent<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#38\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doDisplay<\/a>"], [0, 9, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#46\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::block_body<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#68\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getTemplateName<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#73\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::isTraitable<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#78\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getDebugInfo<\/a>"], [0, 1, "<a href=\"cb\/cb86924f14e040296217574f94fe0914.php.html#83\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getSourceContext<\/a>"]], 'Method Complexity'))
+                    .transition()
+                    .duration(500)
+                    .call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            function getComplexityData(data, label) {
+                var values = [];
+                $.each(data, function (key) {
+                    var value = Math.round(data[key][0] * 100) / 100;
+                    values.push({
+                        x: value,
+                        y: data[key][1],
+                        class: data[key][2],
+                        size: 0.05,
+                        shape: 'diamond'
+                    });
+                });
+
+                return [
+                    {
+                        key: label,
+                        values: values,
+                        color: "#4572A7"
+                    }
+                ];
+            }
+        });
+    </script>
+</body>
+
+</html>

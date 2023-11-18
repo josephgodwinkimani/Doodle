@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard for Doodle\Doodle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="../_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="../_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="../_css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../index.html">Doodle</a></li>
+                            <li class="breadcrumb-item"><a href="index.html">Doodle</a></li>
+                            <li class="breadcrumb-item active">(Dashboard)</li>
+
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Classes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Coverage Distribution</h3>
+                <div id="classCoverageDistribution" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Complexity</h3>
+                <div id="classComplexity" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Insufficient Coverage</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th class="text-right">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="PsyShellCommand.php.html#21">Doodle\PsyShellCommand</a></td>
+                                <td class="text-right">6%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Versioning.php.html#25">Doodle\Versioning</a></td>
+                                <td class="text-right">25%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#19">Doodle\CreateProject</a></td>
+                                <td class="text-right">70%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Framework.php.html#33">Doodle\Framework</a></td>
+                                <td class="text-right">73%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Project Risks</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="Framework.php.html#33">Doodle\Framework</a></td>
+                                <td class="text-right">19</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Versioning.php.html#25">Doodle\Versioning</a></td>
+                                <td class="text-right">10</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#19">Doodle\CreateProject</a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Methods</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Coverage Distribution</h3>
+                <div id="methodCoverageDistribution" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Complexity</h3>
+                <div id="methodComplexity" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Insufficient Coverage</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th class="text-right">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="PsyShellCommand.php.html#43"><abbr
+                                            title="Doodle\PsyShellCommand::execute">execute</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Versioning.php.html#57"><abbr
+                                            title="Doodle\Versioning::updateVersion">updateVersion</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Framework.php.html#74"><abbr
+                                            title="Doodle\Framework::handle">handle</abbr></a></td>
+                                <td class="text-right">63%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#61"><abbr
+                                            title="Doodle\CreateProject::twig">twig</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#113"><abbr
+                                            title="Doodle\CreateProject::pug">pug</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Versioning.php.html#34"><abbr
+                                            title="Doodle\Versioning::getVersion">getVersion</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#36"><abbr
+                                            title="Doodle\CreateProject::__construct">__construct</abbr></a></td>
+                                <td class="text-right">75%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Project Risks</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="Framework.php.html#74"><abbr
+                                            title="Doodle\Framework::handle">handle</abbr></a></td>
+                                <td class="text-right">14</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Versioning.php.html#57"><abbr
+                                            title="Doodle\Versioning::updateVersion">updateVersion</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#61"><abbr
+                                            title="Doodle\CreateProject::twig">twig</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#113"><abbr
+                                            title="Doodle\CreateProject::pug">pug</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Versioning.php.html#34"><abbr
+                                            title="Doodle\Versioning::getVersion">getVersion</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+                            <tr>
+                                <td><a href="CreateProject.php.html#36"><abbr
+                                            title="Doodle\CreateProject::__construct">__construct</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            <p>
+                <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage"
+                        target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/"
+                        target="_top">PHP 8.2.11</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Fri Nov 17
+                    16:01:09 EAT 2023.</small>
+            </p>
+        </footer>
+    </div>
+    <script src="../_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+    <script src="../_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+    <script src="../_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            nv.addGraph(function () {
+                var chart = nv.models.multiBarChart();
+                chart.tooltips(false)
+                    .showControls(false)
+                    .showLegend(false)
+                    .reduceXTicks(false)
+                    .staggerLabels(true)
+                    .yAxis.tickFormat(d3.format('d'));
+
+                d3.select('#classCoverageDistribution svg')
+                    .datum(getCoverageDistributionData([0, 1, 0, 1, 0, 0, 0, 0, 2, 0, 0, 10], "Class Coverage"))
+                    .transition().duration(500).call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            nv.addGraph(function () {
+                var chart = nv.models.multiBarChart();
+                chart.tooltips(false)
+                    .showControls(false)
+                    .showLegend(false)
+                    .reduceXTicks(false)
+                    .staggerLabels(true)
+                    .yAxis.tickFormat(d3.format('d'));
+
+                d3.select('#methodCoverageDistribution svg')
+                    .datum(getCoverageDistributionData([2, 0, 0, 0, 0, 0, 0, 4, 1, 0, 0, 34], "Method Coverage"))
+                    .transition().duration(500).call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            function getCoverageDistributionData(data, label) {
+                var labels = [
+                    '0%',
+                    '0-10%',
+                    '10-20%',
+                    '20-30%',
+                    '30-40%',
+                    '40-50%',
+                    '50-60%',
+                    '60-70%',
+                    '70-80%',
+                    '80-90%',
+                    '90-100%',
+                    '100%'
+                ];
+                var values = [];
+                $.each(labels, function (key) {
+                    values.push({ x: labels[key], y: data[key] });
+                });
+
+                return [
+                    {
+                        key: label,
+                        values: values,
+                        color: "#4572A7"
+                    }
+                ];
+            }
+            nv.addGraph(function () {
+                var chart = nv.models.scatterChart()
+                    .showDistX(true)
+                    .showDistY(true)
+                    .showLegend(false)
+                    .forceX([0, 100]);
+                chart.tooltipContent(function (graph) {
+                    return '<p>' + graph.point.class + '</p>';
+                });
+
+                chart.xAxis.axisLabel('Code Coverage (in percent)');
+                chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+                d3.select('#classComplexity svg')
+                    .datum(getComplexityData([[100, 1, "<a href=\"Container.php.html#20\">Doodle\\Container<\/a>"], [100, 1, "<a href=\"ContentTypeListener.php.html#16\">Doodle\\ContentTypeListener<\/a>"], [70, 6, "<a href=\"CreateProject.php.html#19\">Doodle\\CreateProject<\/a>"], [100, 2, "<a href=\"DatabaseHelper.php.html#16\">Doodle\\DatabaseHelper<\/a>"], [100, 1, "<a href=\"DateTime.php.html#16\">Doodle\\DateTime<\/a>"], [100, 2, "<a href=\"Environment.php.html#18\">Doodle\\Environment<\/a>"], [100, 6, "<a href=\"FileSystemAdapter.php.html#33\">Doodle\\FileSystemAdapter<\/a>"], [73.77049180327869, 15, "<a href=\"Framework.php.html#33\">Doodle\\Framework<\/a>"], [100, 1, "<a href=\"Log.php.html#21\">Doodle\\Log<\/a>"], [100, 3, "<a href=\"LogListener.php.html#16\">Doodle\\LogListener<\/a>"], [6.666666666666667, 2, "<a href=\"PsyShellCommand.php.html#21\">Doodle\\PsyShellCommand<\/a>"], [100, 3, "<a href=\"ResponseEvent.php.html#20\">Doodle\\ResponseEvent<\/a>"], [100, 13, "<a href=\"Validator.php.html#26\">Doodle\\Validator<\/a>"], [25, 4, "<a href=\"Versioning.php.html#25\">Doodle\\Versioning<\/a>"]], 'Class Complexity'))
+                    .transition()
+                    .duration(500)
+                    .call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            nv.addGraph(function () {
+                var chart = nv.models.scatterChart()
+                    .showDistX(true)
+                    .showDistY(true)
+                    .showLegend(false)
+                    .forceX([0, 100]);
+                chart.tooltipContent(function (graph) {
+                    return '<p>' + graph.point.class + '</p>';
+                });
+
+                chart.xAxis.axisLabel('Code Coverage (in percent)');
+                chart.yAxis.axisLabel('Method Complexity');
+
+                d3.select('#methodComplexity svg')
+                    .datum(getComplexityData([[100, 1, "<a href=\"Container.php.html#37\">Doodle\\Container::__construct<\/a>"], [100, 1, "<a href=\"ContentTypeListener.php.html#26\">Doodle\\ContentTypeListener::onResponse<\/a>"], [75, 2, "<a href=\"CreateProject.php.html#36\">Doodle\\CreateProject::__construct<\/a>"], [66.66666666666666, 2, "<a href=\"CreateProject.php.html#61\">Doodle\\CreateProject::twig<\/a>"], [66.66666666666666, 2, "<a href=\"CreateProject.php.html#113\">Doodle\\CreateProject::pug<\/a>"], [100, 1, "<a href=\"DatabaseHelper.php.html#29\">Doodle\\DatabaseHelper::init<\/a>"], [100, 1, "<a href=\"DatabaseHelper.php.html#48\">Doodle\\DatabaseHelper::entityInit<\/a>"], [100, 1, "<a href=\"DateTime.php.html#28\">Doodle\\DateTime::getDatetime<\/a>"], [100, 2, "<a href=\"Environment.php.html#33\">Doodle\\Environment::get<\/a>"], [100, 1, "<a href=\"FileSystemAdapter.php.html#43\">Doodle\\FileSystemAdapter::framework<\/a>"], [100, 1, "<a href=\"FileSystemAdapter.php.html#80\">Doodle\\FileSystemAdapter::local<\/a>"], [100, 1, "<a href=\"FileSystemAdapter.php.html#115\">Doodle\\FileSystemAdapter::ftp<\/a>"], [100, 1, "<a href=\"FileSystemAdapter.php.html#166\">Doodle\\FileSystemAdapter::memory<\/a>"], [100, 1, "<a href=\"FileSystemAdapter.php.html#184\">Doodle\\FileSystemAdapter::sftp<\/a>"], [100, 1, "<a href=\"FileSystemAdapter.php.html#238\">Doodle\\FileSystemAdapter::zip<\/a>"], [100, 1, "<a href=\"Framework.php.html#52\">Doodle\\Framework::__construct<\/a>"], [63.63636363636363, 10, "<a href=\"Framework.php.html#74\">Doodle\\Framework::handle<\/a>"], [100, 4, "<a href=\"Framework.php.html#154\">Doodle\\Framework::run<\/a>"], [100, 1, "<a href=\"Log.php.html#33\">Doodle\\Log::error<\/a>"], [100, 1, "<a href=\"LogListener.php.html#20\">Doodle\\LogListener::__construct<\/a>"], [100, 2, "<a href=\"LogListener.php.html#35\">Doodle\\LogListener::onResponse<\/a>"], [100, 1, "<a href=\"PsyShellCommand.php.html#30\">Doodle\\PsyShellCommand::configure<\/a>"], [0, 1, "<a href=\"PsyShellCommand.php.html#43\">Doodle\\PsyShellCommand::execute<\/a>"], [100, 1, "<a href=\"ResponseEvent.php.html#25\">Doodle\\ResponseEvent::__construct<\/a>"], [100, 1, "<a href=\"ResponseEvent.php.html#34\">Doodle\\ResponseEvent::getResponse<\/a>"], [100, 1, "<a href=\"ResponseEvent.php.html#42\">Doodle\\ResponseEvent::getRequest<\/a>"], [100, 1, "<a href=\"Validator.php.html#31\">Doodle\\Validator::__construct<\/a>"], [100, 1, "<a href=\"Validator.php.html#57\">Doodle\\Validator::isDataType<\/a>"], [100, 1, "<a href=\"Validator.php.html#90\">Doodle\\Validator::isAlpha<\/a>"], [100, 1, "<a href=\"Validator.php.html#122\">Doodle\\Validator::isSpecial<\/a>"], [100, 1, "<a href=\"Validator.php.html#155\">Doodle\\Validator::isNumber<\/a>"], [100, 1, "<a href=\"Validator.php.html#188\">Doodle\\Validator::isFloat<\/a>"], [100, 1, "<a href=\"Validator.php.html#221\">Doodle\\Validator::isEmail<\/a>"], [100, 1, "<a href=\"Validator.php.html#256\">Doodle\\Validator::isDate<\/a>"], [100, 1, "<a href=\"Validator.php.html#288\">Doodle\\Validator::isDateTime<\/a>"], [100, 1, "<a href=\"Validator.php.html#320\">Doodle\\Validator::isJson<\/a>"], [100, 1, "<a href=\"Validator.php.html#352\">Doodle\\Validator::isUrl<\/a>"], [100, 1, "<a href=\"Validator.php.html#388\">Doodle\\Validator::isLength<\/a>"], [100, 1, "<a href=\"Validator.php.html#422\">Doodle\\Validator::isEither<\/a>"], [66.66666666666666, 2, "<a href=\"Versioning.php.html#34\">Doodle\\Versioning::getVersion<\/a>"], [0, 2, "<a href=\"Versioning.php.html#57\">Doodle\\Versioning::updateVersion<\/a>"]], 'Method Complexity'))
+                    .transition()
+                    .duration(500)
+                    .call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            function getComplexityData(data, label) {
+                var values = [];
+                $.each(data, function (key) {
+                    var value = Math.round(data[key][0] * 100) / 100;
+                    values.push({
+                        x: value,
+                        y: data[key][1],
+                        class: data[key][2],
+                        size: 0.05,
+                        shape: 'diamond'
+                    });
+                });
+
+                return [
+                    {
+                        key: label,
+                        values: values,
+                        color: "#4572A7"
+                    }
+                ];
+            }
+        });
+    </script>
+</body>
+
+</html>

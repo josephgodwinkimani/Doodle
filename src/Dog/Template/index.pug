@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      title=page_title
+      
+
+  body
+    div.container
+    h2=page_title
+    ul
+      each item in items
+        li= item.name
+    //[if IE 6]>
+      h3.bad Shit, your browser too old. Please update it.
+      <![endif]
+    br

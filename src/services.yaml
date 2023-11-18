@@ -1,0 +1,4 @@
+services:
+    # add services here
+    helloworld.service:
+        class:     \Cat\Service\HelloWorldService

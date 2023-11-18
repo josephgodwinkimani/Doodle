@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ app_name }} v{{ version }}</title>
+  </head>
+  <body>
+    <h1>{{ page_title }}</h1>
+
+    <ul style="list-style-type:none;">
+      {% for product in products %}
+        <li>{{ product.id }}. {{ product.name }}</li>
+      {% endfor %}
+    </ul>
+
+    {# ... #}
+  </body>
+</html>

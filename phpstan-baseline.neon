@@ -1,0 +1,1636 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 5
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Method __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Method __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Method __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Method __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Method __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Property __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Property __TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 5
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Method __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Method __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Method __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Method __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Method __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Property __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Property __TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/49/499524713aa4e08c33841641642144af.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 5
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Method __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Method __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Method __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Method __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Method __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Property __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^Property __TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$request with type string is incompatible with native type Symfony\\\\Component\\\\HttpFoundation\\\\Request\\.$#"
+			count: 2
+			path: src/Calendar/Controller/LeapYearController.php
+
+		-
+			message: "#^Method Calendar\\\\Template\\\\Twig\\:\\:create\\(\\) has parameter \\$variableArray with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Calendar/Template/Twig.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:block_body\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:block_body\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:block_body\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Method __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Property __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Property __TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$macros\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function Symfony\\\\Bridge\\\\Twig\\\\Extension\\\\twig_is_root_form not found\\.$#"
+			count: 2
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function Symfony\\\\Bridge\\\\Twig\\\\Extension\\\\twig_is_selected_choice not found\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function _twig_default_filter not found\\.$#"
+			count: 22
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_array_filter not found\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_array_merge not found\\.$#"
+			count: 4
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_ensure_traversable not found\\.$#"
+			count: 6
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 39
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_get_attribute not found\\.$#"
+			count: 46
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_in_filter not found\\.$#"
+			count: 3
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_length_filter not found\\.$#"
+			count: 3
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_lower_filter not found\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_raw_filter not found\\.$#"
+			count: 7
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_replace_filter not found\\.$#"
+			count: 3
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_test_empty not found\\.$#"
+			count: 9
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_test_iterable not found\\.$#"
+			count: 6
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_to_array not found\\.$#"
+			count: 5
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_trim_filter not found\\.$#"
+			count: 2
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_upper_filter not found\\.$#"
+			count: 2
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_attributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_attributes\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_attributes\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_attributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_attributes\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_attributes\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_label\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_label\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_label\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_row\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_row\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_row\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_button_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_checkbox_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_checkbox_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_checkbox_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_collapsed\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_collapsed\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_collapsed\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_expanded\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_expanded\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_expanded\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_options\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_options\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_choice_widget_options\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_collection_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_collection_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_collection_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_color_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_color_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_color_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_date_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_date_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_date_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_dateinterval_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_dateinterval_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_dateinterval_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_datetime_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_datetime_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_datetime_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_email_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_email_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_email_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_end\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_end\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_end\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_errors\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_errors\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_errors\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_help\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_help\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_help\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_label\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_label\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_label\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_rest\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_rest\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_rest\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_row\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_row\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_row\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_rows\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_rows\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_rows\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_start\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_start\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_start\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget_compound\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget_compound\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget_compound\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget_simple\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget_simple\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_form_widget_simple\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_hidden_row\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_hidden_row\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_hidden_row\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_hidden_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_hidden_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_hidden_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_integer_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_integer_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_integer_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_money_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_money_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_money_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_number_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_number_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_number_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_password_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_password_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_password_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_percent_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_percent_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_percent_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_radio_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_radio_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_radio_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_range_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_range_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_range_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_repeated_row\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_repeated_row\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_repeated_row\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_reset_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_reset_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_reset_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_search_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_search_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_search_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_submit_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_submit_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_submit_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_tel_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_tel_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_tel_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_textarea_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_textarea_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_textarea_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_time_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_time_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_time_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_url_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_url_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_url_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_week_widget\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_week_widget\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_week_widget\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_widget_attributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_widget_attributes\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_widget_attributes\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_widget_container_attributes\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_widget_container_attributes\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:block_widget_container_attributes\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Method __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Property __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Property __TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Result of \\|\\| is always true\\.$#"
+			count: 32
+			path: src/Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:block_body\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:block_body\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:block_body\\(\\) has parameter \\$context with no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:doGetParent\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:doGetParent\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Method __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Property __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^Property __TwigTemplate_47123c177173f1fbd0c393636aa7a6de\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$request with type string is incompatible with native type Symfony\\\\Component\\\\HttpFoundation\\\\Request\\.$#"
+			count: 1
+			path: src/Cat/Controller/CatController.php
+
+		-
+			message: "#^Method Cat\\\\Service\\\\HelloWorldService\\:\\:__invoke\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Cat/Service/HelloWorldService.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$twig\\.$#"
+			count: 1
+			path: src/Cat/Template/Twig.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$flags\\.$#"
+			count: 2
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Access to an undefined property object\\:\\:\\$regExp\\.$#"
+			count: 2
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$pugModule\\.$#"
+			count: 2
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Call to function is_bool\\(\\) with mixed will always evaluate to false\\.$#"
+			count: 2
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Call to function is_bool\\(\\) with string will always evaluate to false\\.$#"
+			count: 3
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Closure invoked with 2 parameters, 0 required\\.$#"
+			count: 3
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Closure invoked with 2 parameters, 1 required\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__get\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__get\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__invoke\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__invoke\\(\\) has parameter \\$arguments with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__isset\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__set\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__set\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:__toBoolean\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:getCallable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:getValue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:isArrayAccessible\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:setValue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:359\\:\\:setValue\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__get\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__get\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__invoke\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__invoke\\(\\) has parameter \\$arguments with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__isset\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__set\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__set\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:__toBoolean\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:getCallable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:getValue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:isArrayAccessible\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:setValue\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Method class@anonymous/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc\\.php\\:90\\:\\:setValue\\(\\) has parameter \\$value with no type specified\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Variable \\$items might not be defined\\.$#"
+			count: 1
+			path: src/Dog/Cache/TKRWwkGUieyuAjT5j15a78aFck7BNMYP_XsW3lLfkjc.php
+
+		-
+			message: "#^Anonymous function has an unused use \\$pugModule\\.$#"
+			count: 2
+			path: src/Dog/Cache/ZbxHdopew0DmCLpaJbWeYcDIEtZ6zGkEYdd24ymKcng.php
+
+		-
+			message: "#^Call to function is_bool\\(\\) with string will always evaluate to false\\.$#"
+			count: 1
+			path: src/Dog/Cache/ZbxHdopew0DmCLpaJbWeYcDIEtZ6zGkEYdd24ymKcng.php
+
+		-
+			message: "#^Closure invoked with 2 parameters, 0 required\\.$#"
+			count: 1
+			path: src/Dog/Cache/ZbxHdopew0DmCLpaJbWeYcDIEtZ6zGkEYdd24ymKcng.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$request with type string is incompatible with native type Symfony\\\\Component\\\\HttpFoundation\\\\Request\\.$#"
+			count: 1
+			path: src/Dog/Controller/DogController.php
+
+		-
+			message: "#^PHPDoc tag @param references unknown parameter\\: \\$year$#"
+			count: 1
+			path: src/Dog/Controller/DogController.php
+
+		-
+			message: "#^Method Dog\\\\Template\\\\Pug\\:\\:create\\(\\) has parameter \\$variableArray with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Dog/Template/Pug.php
+
+		-
+			message: "#^Method Doodle\\\\FileSystemAdapter\\:\\:local\\(\\) has parameter \\$path with no type specified\\.$#"
+			count: 1
+			path: src/Doodle/FileSystemAdapter.php
+
+		-
+			message: "#^Method Doodle\\\\FileSystemAdapter\\:\\:zip\\(\\) has parameter \\$pathToZip with no type specified\\.$#"
+			count: 1
+			path: src/Doodle/FileSystemAdapter.php
+
+		-
+			message: "#^Return type \\(void\\) of method Doodle\\\\PsyShellCommand\\:\\:execute\\(\\) should be compatible with return type \\(int\\) of method Symfony\\\\Component\\\\Console\\\\Command\\\\Command\\:\\:execute\\(\\)$#"
+			count: 1
+			path: src/Doodle/PsyShellCommand.php
+
+		-
+			message: "#^Method Doodle\\\\Validator\\:\\:isDataType\\(\\) has parameter \\$type with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Doodle/Validator.php
+
+		-
+			message: "#^Method Doodle\\\\Validator\\:\\:isEither\\(\\) has parameter \\$choices with no type specified\\.$#"
+			count: 1
+			path: src/Doodle/Validator.php
+
+		-
+			message: "#^Method Doodle\\\\Validator\\:\\:isUrl\\(\\) has parameter \\$protocols with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Doodle/Validator.php
+
+		-
+			message: "#^Method Product\\:\\:getCreated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getCreatedBy\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getCreatedFromIp\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getId\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getName\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getUpdated\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getUpdatedBy\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:getUpdatedFromIp\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:setCreatedBy\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:setCreatedBy\\(\\) has parameter \\$createdBy with no type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:setName\\(\\) has parameter \\$name with no type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:setUpdatedBy\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Method Product\\:\\:setUpdatedBy\\(\\) has parameter \\$updatedBy with no type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$created is never written, only read\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$createdFromIp is never written, only read\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$id has no type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$id is never written, only read\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$name has no type specified\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$updated is never written, only read\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Property Product\\:\\:\\$updatedFromIp is never written, only read\\.$#"
+			count: 1
+			path: src/Entities/Product.php
+
+		-
+			message: "#^Cannot use \\+\\+ on array\\|bool\\|int\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Function twig_ensure_traversable not found\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 5
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Function twig_get_attribute not found\\.$#"
+			count: 2
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Method __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Method __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Method __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Method __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Method __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Property __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Property __TwigTemplate_15e4737279eeb834afad441b00ead097\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Result of \\|\\| is always true\\.$#"
+			count: 2
+			path: src/Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 4
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Function twig_get_attribute not found\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Method __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Method __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Method __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Method __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Method __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Property __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Property __TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php
+
+		-
+			message: "#^Cannot use \\+\\+ on array\\|bool\\|int\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Function twig_ensure_traversable not found\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Function twig_escape_filter not found\\.$#"
+			count: 5
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Function twig_get_attribute not found\\.$#"
+			count: 2
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Method __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:doDisplay\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Method __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:doDisplay\\(\\) has parameter \\$blocks with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Method __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:doDisplay\\(\\) has parameter \\$context with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Method __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:getDebugInfo\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Method __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:isTraitable\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Property __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:\\$macros has no type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Property __TwigTemplate_af824de5ec87bf8c598b05e39c564ad0\\:\\:\\$source has no type specified\\.$#"
+			count: 1
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^Result of \\|\\| is always true\\.$#"
+			count: 2
+			path: src/Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php
+
+		-
+			message: "#^PHPDoc tag @param for parameter \\$request with type string is incompatible with native type Symfony\\\\Component\\\\HttpFoundation\\\\Request\\.$#"
+			count: 2
+			path: src/Market/Controller/ProductsController.php
+
+		-
+			message: "#^Ternary operator condition is always true\\.$#"
+			count: 2
+			path: src/Market/Controller/ProductsController.php
+
+		-
+			message: "#^Method Market\\\\Model\\\\Product\\:\\:getAll\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Model/Product.php
+
+		-
+			message: "#^Method Market\\\\Model\\\\Product\\:\\:getAll\\(\\) should return array but returns string\\.$#"
+			count: 1
+			path: src/Market/Model/Product.php
+
+		-
+			message: "#^Method Market\\\\Template\\\\Twig\\:\\:create\\(\\) has parameter \\$variableArray with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Market/Template/Twig.php

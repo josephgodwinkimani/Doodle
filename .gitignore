@@ -1,0 +1,26 @@
+# Editors
+project.xml
+project.properties
+/nbproject/private/
+.buildpath
+.project
+.settings*
+.idea
+#.vscode
+*.sublime-project
+*.sublime-workspace
+.sublimelinterrc
+
+vendor/
+node_modules/
+# composer.lock
+phpunit.xml
+.php-cs-fixer.cache
+.php-cs-fixer.php
+.phpunit.result.cache
+composer.phar
+package.tar
+/packages.json
+/.phpunit
+logs/
+var/

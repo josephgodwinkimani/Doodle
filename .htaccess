@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Doodle
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d    
+    RewriteRule (.+) /web/index.php?p=$1 [QSA,L]
+</IfModule>

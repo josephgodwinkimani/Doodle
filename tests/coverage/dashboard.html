@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard for Doodle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="_css/bootstrap.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="_css/nv.d3.min.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="_css/style.css?v=9.2.29" rel="stylesheet" type="text/css">
+    <link href="_css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Doodle</a></li>
+                            <li class="breadcrumb-item active">(Dashboard)</li>
+
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Classes</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Coverage Distribution</h3>
+                <div id="classCoverageDistribution" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Complexity</h3>
+                <div id="classComplexity" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Insufficient Coverage</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th class="text-right">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#16">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#16">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#16">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#16">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#16">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Controller/CatController.php.html#15">Cat\Controller\CatController</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Service/HelloWorldService.php.html#7">Cat\Service\HelloWorldService</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Template/Twig.php.html#16">Cat\Template\Twig</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Dog/Controller/DogController.php.html#13">Dog\Controller\DogController</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Dog/Template/Pug.php.html#7">Dog\Template\Pug</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#15">Product</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#16">__TwigTemplate_15e4737279eeb834afad441b00ead097</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#16">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#16">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Controller/ProductsController.php.html#14">Market\Controller\ProductsController</a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Model/Product.php.html#11">Market\Model\Product</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Template/Twig.php.html#10">Market\Template\Twig</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="TestProject2/Template/Pug.php.html#5">TestProject2\Template\Pug</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="TestProject/Template/Twig.php.html#8">TestProject\Template\Twig</a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/PsyShellCommand.php.html#21">Doodle\PsyShellCommand</a></td>
+                                <td class="text-right">6%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Versioning.php.html#25">Doodle\Versioning</a></td>
+                                <td class="text-right">25%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Controller/LeapYearController.php.html#16">Calendar\Controller\LeapYearController</a>
+                                </td>
+                                <td class="text-right">54%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Model/LeapYear.php.html#7">Calendar\Model\LeapYear</a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#19">Doodle\CreateProject</a></td>
+                                <td class="text-right">70%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Framework.php.html#33">Doodle\Framework</a></td>
+                                <td class="text-right">73%</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Cache/49/499524713aa4e08c33841641642144af.php.html#16">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1</a>
+                                </td>
+                                <td class="text-right">89%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Project Risks</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a
+                                        href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#16">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9</a>
+                                </td>
+                                <td class="text-right">557262</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#16">__TwigTemplate_15e4737279eeb834afad441b00ead097</a>
+                                </td>
+                                <td class="text-right">552</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#16">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0</a>
+                                </td>
+                                <td class="text-right">552</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#16">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99</a>
+                                </td>
+                                <td class="text-right">272</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#16">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6</a>
+                                </td>
+                                <td class="text-right">272</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#16">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de</a>
+                                </td>
+                                <td class="text-right">272</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#15">Product</a></td>
+                                <td class="text-right">272</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#16">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958</a>
+                                </td>
+                                <td class="text-right">210</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#16">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff</a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Market/Controller/ProductsController.php.html#14">Market\Controller\ProductsController</a>
+                                </td>
+                                <td class="text-right">42</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Model/Product.php.html#11">Market\Model\Product</a></td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Framework.php.html#33">Doodle\Framework</a></td>
+                                <td class="text-right">19</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Cache/49/499524713aa4e08c33841641642144af.php.html#16">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1</a>
+                                </td>
+                                <td class="text-right">16</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Versioning.php.html#25">Doodle\Versioning</a></td>
+                                <td class="text-right">10</td>
+                            </tr>
+                            <tr>
+                                <td><a
+                                        href="Calendar/Controller/LeapYearController.php.html#16">Calendar\Controller\LeapYearController</a>
+                                </td>
+                                <td class="text-right">7</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#19">Doodle\CreateProject</a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Controller/CatController.php.html#15">Cat\Controller\CatController</a>
+                                </td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Dog/Controller/DogController.php.html#13">Dog\Controller\DogController</a>
+                                </td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Model/LeapYear.php.html#7">Calendar\Model\LeapYear</a></td>
+                                <td class="text-right">4</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Methods</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Coverage Distribution</h3>
+                <div id="methodCoverageDistribution" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Complexity</h3>
+                <div id="methodComplexity" style="height: 300px;">
+                    <svg></svg>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Insufficient Coverage</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th class="text-right">Coverage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#21"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#33"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#67"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#72"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#77"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#82"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/49/499524713aa4e08c33841641642144af.php.html#67"><abbr
+                                            title="__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/49/499524713aa4e08c33841641642144af.php.html#72"><abbr
+                                            title="__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/49/499524713aa4e08c33841641642144af.php.html#77"><abbr
+                                            title="__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#21"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#33"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#77"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#82"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#87"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#92"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Controller/LeapYearController.php.html#73"><abbr
+                                            title="Calendar\Controller\LeapYearController::subrequest">subrequest</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#21"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#34"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#60"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::block_body">block_body</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#68"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#73"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#78"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#83"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#21"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#81"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#192"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget">block_form_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#206"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_simple">block_form_widget_simple</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#231"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_compound">block_form_widget_compound</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#252"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_collection_widget">block_collection_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#265"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_textarea_widget">block_textarea_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#277"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget">block_choice_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#291"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_expanded">block_choice_widget_expanded</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#336"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_collapsed">block_choice_widget_collapsed</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#390"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_options">block_choice_widget_options</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#461"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_checkbox_widget">block_checkbox_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#479"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_radio_widget">block_radio_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#497"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_datetime_widget">block_datetime_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#523"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_date_widget">block_date_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#546"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_time_widget">block_time_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#577"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_dateinterval_widget">block_dateinterval_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#700"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_number_widget">block_number_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#710"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_integer_widget">block_integer_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#720"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_money_widget">block_money_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#728"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_url_widget">block_url_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#738"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_search_widget">block_search_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#748"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_percent_widget">block_percent_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#762"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_password_widget">block_password_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#772"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_widget">block_hidden_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#782"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_email_widget">block_email_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#792"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_range_widget">block_range_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#802"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_widget">block_button_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#850"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_submit_widget">block_submit_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#860"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_reset_widget">block_reset_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#870"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_tel_widget">block_tel_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#880"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_color_widget">block_color_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#890"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_week_widget">block_week_widget</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#915"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_label">block_form_label</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#986"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_label">block_button_label</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#992"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_help">block_form_help</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1039"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_repeated_row">block_repeated_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1047"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_row">block_form_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1082"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_row">block_button_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1104"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_row">block_hidden_row</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1112"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form">block_form</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1124"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_start">block_form_start</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1169"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_end">block_form_end</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1182"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_errors">block_form_errors</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1228"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rest">block_form_rest</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1290"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rows">block_form_rows</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1327"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_attributes">block_widget_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1349"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_container_attributes">block_widget_container_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1363"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_attributes">block_button_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1380"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_attributes">block_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1438"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1443"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1448"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#21"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#32"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doGetParent">doGetParent</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#38"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#46"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::block_body">block_body</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#68"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#73"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#78"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#83"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Controller/CatController.php.html#28"><abbr
+                                            title="Cat\Controller\CatController::index">index</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Service/HelloWorldService.php.html#9"><abbr
+                                            title="Cat\Service\HelloWorldService::__invoke">__invoke</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Template/Twig.php.html#31"><abbr
+                                            title="Cat\Template\Twig::create">create</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Dog/Controller/DogController.php.html#27"><abbr
+                                            title="Dog\Controller\DogController::index">index</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Dog/Template/Pug.php.html#21"><abbr
+                                            title="Dog\Template\Pug::create">create</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/PsyShellCommand.php.html#43"><abbr
+                                            title="Doodle\PsyShellCommand::execute">execute</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Versioning.php.html#57"><abbr
+                                            title="Doodle\Versioning::updateVersion">updateVersion</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#78"><abbr title="Product::getId">getId</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#83"><abbr
+                                            title="Product::getName">getName</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#88"><abbr
+                                            title="Product::getCreatedBy">getCreatedBy</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#92"><abbr
+                                            title="Product::getCreated">getCreated</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#97"><abbr
+                                            title="Product::getUpdatedBy">getUpdatedBy</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#102"><abbr
+                                            title="Product::getUpdated">getUpdated</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#107"><abbr
+                                            title="Product::getCreatedFromIp">getCreatedFromIp</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#112"><abbr
+                                            title="Product::getUpdatedFromIp">getUpdatedFromIp</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#117"><abbr
+                                            title="Product::getDeletedAt">getDeletedAt</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#123"><abbr
+                                            title="Product::setName">setName</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#130"><abbr
+                                            title="Product::setCreatedBy">setCreatedBy</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#137"><abbr
+                                            title="Product::setUpdatedBy">setUpdatedBy</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#144"><abbr
+                                            title="Product::setDeletedAt">setDeletedAt</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#21"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#33"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#101"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#106"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#111"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#116"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#21"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#33"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#72"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#77"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#82"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#87"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#21"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::__construct">__construct</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#33"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#113"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::getTemplateName">getTemplateName</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#118"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::isTraitable">isTraitable</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#123"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::getDebugInfo">getDebugInfo</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#128"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::getSourceContext">getSourceContext</abbr></a>
+                                </td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Controller/ProductsController.php.html#27"><abbr
+                                            title="Market\Controller\ProductsController::index">index</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Controller/ProductsController.php.html#70"><abbr
+                                            title="Market\Controller\ProductsController::create">create</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Model/Product.php.html#20"><abbr
+                                            title="Market\Model\Product::getAll">getAll</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Model/Product.php.html#47"><abbr
+                                            title="Market\Model\Product::createOne">createOne</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Template/Twig.php.html#25"><abbr
+                                            title="Market\Template\Twig::create">create</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="TestProject2/Template/Pug.php.html#19"><abbr
+                                            title="TestProject2\Template\Pug::create">create</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="TestProject/Template/Twig.php.html#22"><abbr
+                                            title="TestProject\Template\Twig::create">create</abbr></a></td>
+                                <td class="text-right">0%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Framework.php.html#74"><abbr
+                                            title="Doodle\Framework::handle">handle</abbr></a></td>
+                                <td class="text-right">63%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Model/LeapYear.php.html#18"><abbr
+                                            title="Calendar\Model\LeapYear::isLeapYear">isLeapYear</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#61"><abbr
+                                            title="Doodle\CreateProject::twig">twig</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#113"><abbr
+                                            title="Doodle\CreateProject::pug">pug</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Versioning.php.html#34"><abbr
+                                            title="Doodle\Versioning::getVersion">getVersion</abbr></a></td>
+                                <td class="text-right">66%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#36"><abbr
+                                            title="Doodle\CreateProject::__construct">__construct</abbr></a></td>
+                                <td class="text-right">75%</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Controller/LeapYearController.php.html#31"><abbr
+                                            title="Calendar\Controller\LeapYearController::index">index</abbr></a></td>
+                                <td class="text-right">85%</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Project Risks</h3>
+                <div class="scrollbox">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Method</th>
+                                <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#577"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_dateinterval_widget">block_dateinterval_widget</abbr></a>
+                                </td>
+                                <td class="text-right">7140</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#915"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_label">block_form_label</abbr></a>
+                                </td>
+                                <td class="text-right">4692</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#336"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_collapsed">block_choice_widget_collapsed</abbr></a>
+                                </td>
+                                <td class="text-right">3192</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#390"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_options">block_choice_widget_options</abbr></a>
+                                </td>
+                                <td class="text-right">2550</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#802"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_widget">block_button_widget</abbr></a>
+                                </td>
+                                <td class="text-right">2162</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1380"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_attributes">block_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">1722</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#992"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_help">block_form_help</abbr></a>
+                                </td>
+                                <td class="text-right">1406</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1228"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rest">block_form_rest</abbr></a>
+                                </td>
+                                <td class="text-right">1260</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1124"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_start">block_form_start</abbr></a>
+                                </td>
+                                <td class="text-right">1056</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#546"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_time_widget">block_time_widget</abbr></a>
+                                </td>
+                                <td class="text-right">650</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1047"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_row">block_form_row</abbr></a>
+                                </td>
+                                <td class="text-right">380</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/89/897eae4a4b319ddbc4aca99b69840bbb.php.html#33"><abbr
+                                            title="__TwigTemplate_15e4737279eeb834afad441b00ead097::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">342</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/bf/bf00a1a46971fb5ec57c437f02db39cd.php.html#33"><abbr
+                                            title="__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">342</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#206"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_simple">block_form_widget_simple</abbr></a>
+                                </td>
+                                <td class="text-right">306</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#890"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_week_widget">block_week_widget</abbr></a>
+                                </td>
+                                <td class="text-right">240</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#291"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_expanded">block_choice_widget_expanded</abbr></a>
+                                </td>
+                                <td class="text-right">210</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1182"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_errors">block_form_errors</abbr></a>
+                                </td>
+                                <td class="text-right">182</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#497"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_datetime_widget">block_datetime_widget</abbr></a>
+                                </td>
+                                <td class="text-right">156</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#523"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_date_widget">block_date_widget</abbr></a>
+                                </td>
+                                <td class="text-right">156</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1290"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rows">block_form_rows</abbr></a>
+                                </td>
+                                <td class="text-right">156</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/21/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#33"><abbr
+                                            title="__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">132</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Cache/96/96e9540574c595f88d073aed5b7d8acf.php.html#33"><abbr
+                                            title="__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">132</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1327"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_attributes">block_widget_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">132</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#748"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_percent_widget">block_percent_widget</abbr></a>
+                                </td>
+                                <td class="text-right">110</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#252"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_collection_widget">block_collection_widget</abbr></a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/cb/cb86924f14e040296217574f94fe0914.php.html#46"><abbr
+                                            title="__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::block_body">block_body</abbr></a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Cache/ac/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#33"><abbr
+                                            title="__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">90</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#231"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_compound">block_form_widget_compound</abbr></a>
+                                </td>
+                                <td class="text-right">72</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1363"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_attributes">block_button_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">72</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#461"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_checkbox_widget">block_checkbox_widget</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#479"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_radio_widget">block_radio_widget</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1112"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form">block_form</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1169"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_end">block_form_end</abbr></a>
+                                </td>
+                                <td class="text-right">56</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1082"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_row">block_button_row</abbr></a>
+                                </td>
+                                <td class="text-right">42</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1349"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_container_attributes">block_widget_container_attributes</abbr></a>
+                                </td>
+                                <td class="text-right">42</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#192"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget">block_form_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#277"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget">block_choice_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#700"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_number_widget">block_number_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#710"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_integer_widget">block_integer_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#728"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_url_widget">block_url_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#738"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_search_widget">block_search_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#762"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_password_widget">block_password_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#772"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_widget">block_hidden_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#782"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_email_widget">block_email_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#792"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_range_widget">block_range_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#850"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_submit_widget">block_submit_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#860"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_reset_widget">block_reset_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#870"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_tel_widget">block_tel_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#880"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_color_widget">block_color_widget</abbr></a>
+                                </td>
+                                <td class="text-right">20</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Framework.php.html#74"><abbr
+                                            title="Doodle\Framework::handle">handle</abbr></a></td>
+                                <td class="text-right">14</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/35/35ccaee8e5f676d09611769962b8967a.php.html#34"><abbr
+                                            title="__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::doDisplay">doDisplay</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#265"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_textarea_widget">block_textarea_widget</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#720"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_money_widget">block_money_widget</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Cache/45/4500b48e116e76b2a58a65881ed61667.php.html#1104"><abbr
+                                            title="__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_row">block_hidden_row</abbr></a>
+                                </td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Controller/ProductsController.php.html#27"><abbr
+                                            title="Market\Controller\ProductsController::index">index</abbr></a></td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Controller/ProductsController.php.html#70"><abbr
+                                            title="Market\Controller\ProductsController::create">create</abbr></a></td>
+                                <td class="text-right">12</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Controller/LeapYearController.php.html#73"><abbr
+                                            title="Calendar\Controller\LeapYearController::subrequest">subrequest</abbr></a>
+                                </td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Cat/Controller/CatController.php.html#28"><abbr
+                                            title="Cat\Controller\CatController::index">index</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Dog/Controller/DogController.php.html#27"><abbr
+                                            title="Dog\Controller\DogController::index">index</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Versioning.php.html#57"><abbr
+                                            title="Doodle\Versioning::updateVersion">updateVersion</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#123"><abbr
+                                            title="Product::setName">setName</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#130"><abbr
+                                            title="Product::setCreatedBy">setCreatedBy</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Entities/Product.php.html#137"><abbr
+                                            title="Product::setUpdatedBy">setUpdatedBy</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Model/Product.php.html#20"><abbr
+                                            title="Market\Model\Product::getAll">getAll</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Market/Model/Product.php.html#47"><abbr
+                                            title="Market\Model\Product::createOne">createOne</abbr></a></td>
+                                <td class="text-right">6</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Model/LeapYear.php.html#18"><abbr
+                                            title="Calendar\Model\LeapYear::isLeapYear">isLeapYear</abbr></a></td>
+                                <td class="text-right">4</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Calendar/Controller/LeapYearController.php.html#31"><abbr
+                                            title="Calendar\Controller\LeapYearController::index">index</abbr></a></td>
+                                <td class="text-right">3</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#61"><abbr
+                                            title="Doodle\CreateProject::twig">twig</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#113"><abbr
+                                            title="Doodle\CreateProject::pug">pug</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/Versioning.php.html#34"><abbr
+                                            title="Doodle\Versioning::getVersion">getVersion</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+                            <tr>
+                                <td><a href="Doodle/CreateProject.php.html#36"><abbr
+                                            title="Doodle\CreateProject::__construct">__construct</abbr></a></td>
+                                <td class="text-right">2</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr />
+            <p>
+                <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage"
+                        target="_top">php-code-coverage 9.2.29</a> using <a href="https://secure.php.net/"
+                        target="_top">PHP 8.2.11</a> and <a href="https://phpunit.de/">PHPUnit 9.6.13</a> at Fri Nov 17
+                    16:01:09 EAT 2023.</small>
+            </p>
+        </footer>
+    </div>
+    <script src="_js/jquery.min.js?v=9.2.29" type="text/javascript"></script>
+    <script src="_js/d3.min.js?v=9.2.29" type="text/javascript"></script>
+    <script src="_js/nv.d3.min.js?v=9.2.29" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            nv.addGraph(function () {
+                var chart = nv.models.multiBarChart();
+                chart.tooltips(false)
+                    .showControls(false)
+                    .showLegend(false)
+                    .reduceXTicks(false)
+                    .staggerLabels(true)
+                    .yAxis.tickFormat(d3.format('d'));
+
+                d3.select('#classCoverageDistribution svg')
+                    .datum(getCoverageDistributionData([19, 1, 0, 1, 0, 0, 1, 1, 2, 1, 0, 11], "Class Coverage"))
+                    .transition().duration(500).call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            nv.addGraph(function () {
+                var chart = nv.models.multiBarChart();
+                chart.tooltips(false)
+                    .showControls(false)
+                    .showLegend(false)
+                    .reduceXTicks(false)
+                    .staggerLabels(true)
+                    .yAxis.tickFormat(d3.format('d'));
+
+                d3.select('#methodCoverageDistribution svg')
+                    .datum(getCoverageDistributionData([129, 0, 0, 0, 0, 0, 0, 5, 1, 1, 0, 38], "Method Coverage"))
+                    .transition().duration(500).call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            function getCoverageDistributionData(data, label) {
+                var labels = [
+                    '0%',
+                    '0-10%',
+                    '10-20%',
+                    '20-30%',
+                    '30-40%',
+                    '40-50%',
+                    '50-60%',
+                    '60-70%',
+                    '70-80%',
+                    '80-90%',
+                    '90-100%',
+                    '100%'
+                ];
+                var values = [];
+                $.each(labels, function (key) {
+                    values.push({ x: labels[key], y: data[key] });
+                });
+
+                return [
+                    {
+                        key: label,
+                        values: values,
+                        color: "#4572A7"
+                    }
+                ];
+            }
+            nv.addGraph(function () {
+                var chart = nv.models.scatterChart()
+                    .showDistX(true)
+                    .showDistY(true)
+                    .showLegend(false)
+                    .forceX([0, 100]);
+                chart.tooltipContent(function (graph) {
+                    return '<p>' + graph.point.class + '</p>';
+                });
+
+                chart.xAxis.axisLabel('Code Coverage (in percent)');
+                chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+                d3.select('#classComplexity svg')
+                    .datum(getComplexityData([[0, 16, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#16\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99<\/a>"], [89.65517241379311, 16, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#16\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1<\/a>"], [0, 16, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#16\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6<\/a>"], [54.54545454545454, 5, "<a href=\"Calendar\/Controller\/LeapYearController.php.html#16\">Calendar\\Controller\\LeapYearController<\/a>"], [66.66666666666666, 4, "<a href=\"Calendar\/Model\/LeapYear.php.html#7\">Calendar\\Model\\LeapYear<\/a>"], [100, 1, "<a href=\"Calendar\/Template\/Twig.php.html#10\">Calendar\\Template\\Twig<\/a>"], [0, 9, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#16\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff<\/a>"], [0, 746, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#16\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9<\/a>"], [0, 16, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#16\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de<\/a>"], [0, 2, "<a href=\"Cat\/Controller\/CatController.php.html#15\">Cat\\Controller\\CatController<\/a>"], [0, 1, "<a href=\"Cat\/Service\/HelloWorldService.php.html#7\">Cat\\Service\\HelloWorldService<\/a>"], [0, 1, "<a href=\"Cat\/Template\/Twig.php.html#16\">Cat\\Template\\Twig<\/a>"], [0, 2, "<a href=\"Dog\/Controller\/DogController.php.html#13\">Dog\\Controller\\DogController<\/a>"], [0, 1, "<a href=\"Dog\/Template\/Pug.php.html#7\">Dog\\Template\\Pug<\/a>"], [100, 1, "<a href=\"Doodle\/Container.php.html#20\">Doodle\\Container<\/a>"], [100, 1, "<a href=\"Doodle\/ContentTypeListener.php.html#16\">Doodle\\ContentTypeListener<\/a>"], [70, 6, "<a href=\"Doodle\/CreateProject.php.html#19\">Doodle\\CreateProject<\/a>"], [100, 2, "<a href=\"Doodle\/DatabaseHelper.php.html#16\">Doodle\\DatabaseHelper<\/a>"], [100, 1, "<a href=\"Doodle\/DateTime.php.html#16\">Doodle\\DateTime<\/a>"], [100, 2, "<a href=\"Doodle\/Environment.php.html#18\">Doodle\\Environment<\/a>"], [100, 6, "<a href=\"Doodle\/FileSystemAdapter.php.html#33\">Doodle\\FileSystemAdapter<\/a>"], [73.77049180327869, 15, "<a href=\"Doodle\/Framework.php.html#33\">Doodle\\Framework<\/a>"], [100, 1, "<a href=\"Doodle\/Log.php.html#21\">Doodle\\Log<\/a>"], [100, 3, "<a href=\"Doodle\/LogListener.php.html#16\">Doodle\\LogListener<\/a>"], [6.666666666666667, 2, "<a href=\"Doodle\/PsyShellCommand.php.html#21\">Doodle\\PsyShellCommand<\/a>"], [100, 3, "<a href=\"Doodle\/ResponseEvent.php.html#20\">Doodle\\ResponseEvent<\/a>"], [100, 13, "<a href=\"Doodle\/Validator.php.html#26\">Doodle\\Validator<\/a>"], [25, 4, "<a href=\"Doodle\/Versioning.php.html#25\">Doodle\\Versioning<\/a>"], [0, 16, "<a href=\"Entities\/Product.php.html#15\">Product<\/a>"], [0, 23, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#16\">__TwigTemplate_15e4737279eeb834afad441b00ead097<\/a>"], [0, 14, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#16\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958<\/a>"], [0, 23, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#16\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0<\/a>"], [0, 6, "<a href=\"Market\/Controller\/ProductsController.php.html#14\">Market\\Controller\\ProductsController<\/a>"], [0, 4, "<a href=\"Market\/Model\/Product.php.html#11\">Market\\Model\\Product<\/a>"], [0, 1, "<a href=\"Market\/Template\/Twig.php.html#10\">Market\\Template\\Twig<\/a>"], [0, 1, "<a href=\"TestProject2\/Template\/Pug.php.html#5\">TestProject2\\Template\\Pug<\/a>"], [0, 1, "<a href=\"TestProject\/Template\/Twig.php.html#8\">TestProject\\Template\\Twig<\/a>"]], 'Class Complexity'))
+                    .transition()
+                    .duration(500)
+                    .call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            nv.addGraph(function () {
+                var chart = nv.models.scatterChart()
+                    .showDistX(true)
+                    .showDistY(true)
+                    .showLegend(false)
+                    .forceX([0, 100]);
+                chart.tooltipContent(function (graph) {
+                    return '<p>' + graph.point.class + '</p>';
+                });
+
+                chart.xAxis.axisLabel('Code Coverage (in percent)');
+                chart.yAxis.axisLabel('Method Complexity');
+
+                d3.select('#methodComplexity svg')
+                    .datum(getComplexityData([[0, 1, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#21\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::__construct<\/a>"], [0, 11, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#33\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::doDisplay<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#67\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::getTemplateName<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#72\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::isTraitable<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#77\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::getDebugInfo<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/21\/21d28285cb6bf4387a1dda7b2e2d3e66.php.html#82\">__TwigTemplate_c8e3c5398bdd59719cd2836c7f880c99::getSourceContext<\/a>"], [100, 1, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#21\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::__construct<\/a>"], [100, 11, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#33\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::doDisplay<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#67\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::getTemplateName<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#72\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::isTraitable<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#77\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::getDebugInfo<\/a>"], [100, 1, "<a href=\"Calendar\/Cache\/49\/499524713aa4e08c33841641642144af.php.html#82\">__TwigTemplate_c6e7d2b018bc4d0bc295218cb63a5bc1::getSourceContext<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#21\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::__construct<\/a>"], [0, 11, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#33\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::doDisplay<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#77\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::getTemplateName<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#82\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::isTraitable<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#87\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::getDebugInfo<\/a>"], [0, 1, "<a href=\"Calendar\/Cache\/96\/96e9540574c595f88d073aed5b7d8acf.php.html#92\">__TwigTemplate_c5a0cf3e7185284a147ccbc4d2c327c6::getSourceContext<\/a>"], [85.71428571428571, 3, "<a href=\"Calendar\/Controller\/LeapYearController.php.html#31\">Calendar\\Controller\\LeapYearController::index<\/a>"], [0, 2, "<a href=\"Calendar\/Controller\/LeapYearController.php.html#73\">Calendar\\Controller\\LeapYearController::subrequest<\/a>"], [66.66666666666666, 4, "<a href=\"Calendar\/Model\/LeapYear.php.html#18\">Calendar\\Model\\LeapYear::isLeapYear<\/a>"], [100, 1, "<a href=\"Calendar\/Template\/Twig.php.html#25\">Calendar\\Template\\Twig::create<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#21\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::__construct<\/a>"], [0, 3, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#34\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::doDisplay<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#60\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::block_body<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#68\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getTemplateName<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#73\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::isTraitable<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#78\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getDebugInfo<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/35\/35ccaee8e5f676d09611769962b8967a.php.html#83\">__TwigTemplate_82a84dfdf490af1f914dc8c88b5ae3ff::getSourceContext<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#21\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::__construct<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#81\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::doDisplay<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#192\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget<\/a>"], [0, 17, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#206\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_simple<\/a>"], [0, 8, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#231\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_widget_compound<\/a>"], [0, 9, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#252\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_collection_widget<\/a>"], [0, 3, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#265\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_textarea_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#277\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget<\/a>"], [0, 14, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#291\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_expanded<\/a>"], [0, 56, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#336\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_collapsed<\/a>"], [0, 50, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#390\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_choice_widget_options<\/a>"], [0, 7, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#461\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_checkbox_widget<\/a>"], [0, 7, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#479\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_radio_widget<\/a>"], [0, 12, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#497\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_datetime_widget<\/a>"], [0, 12, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#523\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_date_widget<\/a>"], [0, 25, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#546\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_time_widget<\/a>"], [0, 84, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#577\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_dateinterval_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#700\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_number_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#710\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_integer_widget<\/a>"], [0, 3, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#720\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_money_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#728\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_url_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#738\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_search_widget<\/a>"], [0, 10, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#748\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_percent_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#762\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_password_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#772\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#782\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_email_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#792\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_range_widget<\/a>"], [0, 46, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#802\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#850\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_submit_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#860\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_reset_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#870\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_tel_widget<\/a>"], [0, 4, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#880\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_color_widget<\/a>"], [0, 15, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#890\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_week_widget<\/a>"], [0, 68, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#915\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_label<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#986\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_label<\/a>"], [0, 37, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#992\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_help<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1039\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_repeated_row<\/a>"], [0, 19, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1047\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_row<\/a>"], [0, 6, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1082\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_row<\/a>"], [0, 3, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1104\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_hidden_row<\/a>"], [0, 7, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1112\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form<\/a>"], [0, 32, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1124\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_start<\/a>"], [0, 7, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1169\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_end<\/a>"], [0, 13, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1182\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_errors<\/a>"], [0, 35, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1228\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rest<\/a>"], [0, 12, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1290\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_form_rows<\/a>"], [0, 11, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1327\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_attributes<\/a>"], [0, 6, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1349\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_widget_container_attributes<\/a>"], [0, 8, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1363\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_button_attributes<\/a>"], [0, 41, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1380\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::block_attributes<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1438\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getTemplateName<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1443\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getDebugInfo<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/45\/4500b48e116e76b2a58a65881ed61667.php.html#1448\">__TwigTemplate_fec0b36db353d2a3698cc708f2f1fbd9::getSourceContext<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#21\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::__construct<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#32\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doGetParent<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#38\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::doDisplay<\/a>"], [0, 9, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#46\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::block_body<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#68\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getTemplateName<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#73\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::isTraitable<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#78\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getDebugInfo<\/a>"], [0, 1, "<a href=\"Cat\/Cache\/cb\/cb86924f14e040296217574f94fe0914.php.html#83\">__TwigTemplate_47123c177173f1fbd0c393636aa7a6de::getSourceContext<\/a>"], [0, 2, "<a href=\"Cat\/Controller\/CatController.php.html#28\">Cat\\Controller\\CatController::index<\/a>"], [0, 1, "<a href=\"Cat\/Service\/HelloWorldService.php.html#9\">Cat\\Service\\HelloWorldService::__invoke<\/a>"], [0, 1, "<a href=\"Cat\/Template\/Twig.php.html#31\">Cat\\Template\\Twig::create<\/a>"], [0, 2, "<a href=\"Dog\/Controller\/DogController.php.html#27\">Dog\\Controller\\DogController::index<\/a>"], [0, 1, "<a href=\"Dog\/Template\/Pug.php.html#21\">Dog\\Template\\Pug::create<\/a>"], [100, 1, "<a href=\"Doodle\/Container.php.html#37\">Doodle\\Container::__construct<\/a>"], [100, 1, "<a href=\"Doodle\/ContentTypeListener.php.html#26\">Doodle\\ContentTypeListener::onResponse<\/a>"], [75, 2, "<a href=\"Doodle\/CreateProject.php.html#36\">Doodle\\CreateProject::__construct<\/a>"], [66.66666666666666, 2, "<a href=\"Doodle\/CreateProject.php.html#61\">Doodle\\CreateProject::twig<\/a>"], [66.66666666666666, 2, "<a href=\"Doodle\/CreateProject.php.html#113\">Doodle\\CreateProject::pug<\/a>"], [100, 1, "<a href=\"Doodle\/DatabaseHelper.php.html#29\">Doodle\\DatabaseHelper::init<\/a>"], [100, 1, "<a href=\"Doodle\/DatabaseHelper.php.html#48\">Doodle\\DatabaseHelper::entityInit<\/a>"], [100, 1, "<a href=\"Doodle\/DateTime.php.html#28\">Doodle\\DateTime::getDatetime<\/a>"], [100, 2, "<a href=\"Doodle\/Environment.php.html#33\">Doodle\\Environment::get<\/a>"], [100, 1, "<a href=\"Doodle\/FileSystemAdapter.php.html#43\">Doodle\\FileSystemAdapter::framework<\/a>"], [100, 1, "<a href=\"Doodle\/FileSystemAdapter.php.html#80\">Doodle\\FileSystemAdapter::local<\/a>"], [100, 1, "<a href=\"Doodle\/FileSystemAdapter.php.html#115\">Doodle\\FileSystemAdapter::ftp<\/a>"], [100, 1, "<a href=\"Doodle\/FileSystemAdapter.php.html#166\">Doodle\\FileSystemAdapter::memory<\/a>"], [100, 1, "<a href=\"Doodle\/FileSystemAdapter.php.html#184\">Doodle\\FileSystemAdapter::sftp<\/a>"], [100, 1, "<a href=\"Doodle\/FileSystemAdapter.php.html#238\">Doodle\\FileSystemAdapter::zip<\/a>"], [100, 1, "<a href=\"Doodle\/Framework.php.html#52\">Doodle\\Framework::__construct<\/a>"], [63.63636363636363, 10, "<a href=\"Doodle\/Framework.php.html#74\">Doodle\\Framework::handle<\/a>"], [100, 4, "<a href=\"Doodle\/Framework.php.html#154\">Doodle\\Framework::run<\/a>"], [100, 1, "<a href=\"Doodle\/Log.php.html#33\">Doodle\\Log::error<\/a>"], [100, 1, "<a href=\"Doodle\/LogListener.php.html#20\">Doodle\\LogListener::__construct<\/a>"], [100, 2, "<a href=\"Doodle\/LogListener.php.html#35\">Doodle\\LogListener::onResponse<\/a>"], [100, 1, "<a href=\"Doodle\/PsyShellCommand.php.html#30\">Doodle\\PsyShellCommand::configure<\/a>"], [0, 1, "<a href=\"Doodle\/PsyShellCommand.php.html#43\">Doodle\\PsyShellCommand::execute<\/a>"], [100, 1, "<a href=\"Doodle\/ResponseEvent.php.html#25\">Doodle\\ResponseEvent::__construct<\/a>"], [100, 1, "<a href=\"Doodle\/ResponseEvent.php.html#34\">Doodle\\ResponseEvent::getResponse<\/a>"], [100, 1, "<a href=\"Doodle\/ResponseEvent.php.html#42\">Doodle\\ResponseEvent::getRequest<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#31\">Doodle\\Validator::__construct<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#57\">Doodle\\Validator::isDataType<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#90\">Doodle\\Validator::isAlpha<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#122\">Doodle\\Validator::isSpecial<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#155\">Doodle\\Validator::isNumber<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#188\">Doodle\\Validator::isFloat<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#221\">Doodle\\Validator::isEmail<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#256\">Doodle\\Validator::isDate<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#288\">Doodle\\Validator::isDateTime<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#320\">Doodle\\Validator::isJson<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#352\">Doodle\\Validator::isUrl<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#388\">Doodle\\Validator::isLength<\/a>"], [100, 1, "<a href=\"Doodle\/Validator.php.html#422\">Doodle\\Validator::isEither<\/a>"], [66.66666666666666, 2, "<a href=\"Doodle\/Versioning.php.html#34\">Doodle\\Versioning::getVersion<\/a>"], [0, 2, "<a href=\"Doodle\/Versioning.php.html#57\">Doodle\\Versioning::updateVersion<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#78\">Product::getId<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#83\">Product::getName<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#88\">Product::getCreatedBy<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#92\">Product::getCreated<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#97\">Product::getUpdatedBy<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#102\">Product::getUpdated<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#107\">Product::getCreatedFromIp<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#112\">Product::getUpdatedFromIp<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#117\">Product::getDeletedAt<\/a>"], [0, 2, "<a href=\"Entities\/Product.php.html#123\">Product::setName<\/a>"], [0, 2, "<a href=\"Entities\/Product.php.html#130\">Product::setCreatedBy<\/a>"], [0, 2, "<a href=\"Entities\/Product.php.html#137\">Product::setUpdatedBy<\/a>"], [0, 1, "<a href=\"Entities\/Product.php.html#144\">Product::setDeletedAt<\/a>"], [0, 1, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#21\">__TwigTemplate_15e4737279eeb834afad441b00ead097::__construct<\/a>"], [0, 18, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#33\">__TwigTemplate_15e4737279eeb834afad441b00ead097::doDisplay<\/a>"], [0, 1, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#101\">__TwigTemplate_15e4737279eeb834afad441b00ead097::getTemplateName<\/a>"], [0, 1, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#106\">__TwigTemplate_15e4737279eeb834afad441b00ead097::isTraitable<\/a>"], [0, 1, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#111\">__TwigTemplate_15e4737279eeb834afad441b00ead097::getDebugInfo<\/a>"], [0, 1, "<a href=\"Market\/Cache\/89\/897eae4a4b319ddbc4aca99b69840bbb.php.html#116\">__TwigTemplate_15e4737279eeb834afad441b00ead097::getSourceContext<\/a>"], [0, 1, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#21\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::__construct<\/a>"], [0, 9, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#33\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::doDisplay<\/a>"], [0, 1, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#72\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::getTemplateName<\/a>"], [0, 1, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#77\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::isTraitable<\/a>"], [0, 1, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#82\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::getDebugInfo<\/a>"], [0, 1, "<a href=\"Market\/Cache\/ac\/ac1aad6e2a8dc1d922b382fcfc0af9a8.php.html#87\">__TwigTemplate_dfbc3fd283b158f7f9db7ecc21d14958::getSourceContext<\/a>"], [0, 1, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#21\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::__construct<\/a>"], [0, 18, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#33\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::doDisplay<\/a>"], [0, 1, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#113\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::getTemplateName<\/a>"], [0, 1, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#118\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::isTraitable<\/a>"], [0, 1, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#123\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::getDebugInfo<\/a>"], [0, 1, "<a href=\"Market\/Cache\/bf\/bf00a1a46971fb5ec57c437f02db39cd.php.html#128\">__TwigTemplate_af824de5ec87bf8c598b05e39c564ad0::getSourceContext<\/a>"], [0, 3, "<a href=\"Market\/Controller\/ProductsController.php.html#27\">Market\\Controller\\ProductsController::index<\/a>"], [0, 3, "<a href=\"Market\/Controller\/ProductsController.php.html#70\">Market\\Controller\\ProductsController::create<\/a>"], [0, 2, "<a href=\"Market\/Model\/Product.php.html#20\">Market\\Model\\Product::getAll<\/a>"], [0, 2, "<a href=\"Market\/Model\/Product.php.html#47\">Market\\Model\\Product::createOne<\/a>"], [0, 1, "<a href=\"Market\/Template\/Twig.php.html#25\">Market\\Template\\Twig::create<\/a>"], [0, 1, "<a href=\"TestProject2\/Template\/Pug.php.html#19\">TestProject2\\Template\\Pug::create<\/a>"], [0, 1, "<a href=\"TestProject\/Template\/Twig.php.html#22\">TestProject\\Template\\Twig::create<\/a>"]], 'Method Complexity'))
+                    .transition()
+                    .duration(500)
+                    .call(chart);
+
+                nv.utils.windowResize(chart.update);
+
+                return chart;
+            });
+
+            function getComplexityData(data, label) {
+                var values = [];
+                $.each(data, function (key) {
+                    var value = Math.round(data[key][0] * 100) / 100;
+                    values.push({
+                        x: value,
+                        y: data[key][1],
+                        class: data[key][2],
+                        size: 0.05,
+                        shape: 'diamond'
+                    });
+                });
+
+                return [
+                    {
+                        key: label,
+                        values: values,
+                        color: "#4572A7"
+                    }
+                ];
+            }
+        });
+    </script>
+</body>
+
+</html>

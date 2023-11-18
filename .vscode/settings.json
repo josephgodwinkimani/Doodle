@@ -1,0 +1,21 @@
+{
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#00ffd8"
+    },
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "php.format.codeStyle": "PSR-2",
+    "intelliphp.inlineSuggestionsEnabled": true,
+    "php.inlayHints.parameters.enabled": true,
+    "php.inlayHints.parameters.suppressNameMatchingValue": false,
+    "editor.formatOnType": true,
+    "php.completion.parameters": "parameters",
+    "snyk.features.openSourceSecurity": true,
+    "snyk.features.codeSecurity": true,
+    "snyk.features.codeQuality": true,
+    "php.version": "8.2"
+}
