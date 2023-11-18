@@ -35,7 +35,7 @@ This [framework][3] is a _Doodle_. The concept is aimed at capitalizing on exist
 
 ## Code Coverage
 
-![tests/coverage/index.html](https://raw.githubusercontent.com/josephgodwinkimani/Doodle/master/tests/code-coverage.PNG "Doodle")
+![tests/coverage/index.html](/tests/code-coverage.PNG)
 
 ## Security
 

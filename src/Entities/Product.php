@@ -10,6 +10,7 @@ use Gedmo\Mapping\Annotation as Gedmo;
 /**
  * @ORM\Entity
  * @ORM\Table(name="products")
+ *
  * @Gedmo\SoftDeleteable(fieldName="deletedAt", timeAware=false, hardDelete=true)
  */
 class Product
@@ -27,6 +28,7 @@ class Product
      * @var string|null
      *
      * @Gedmo\Blameable(on="create")
+     *
      * @ORM\Column(type="string")
      */
     private $createdBy;
@@ -34,6 +36,7 @@ class Product
      * @var \DateTime $created
      *
      * @Gedmo\Timestampable(on="create")
+     *
      * @ORM\Column(type="datetime")
      */
     private $created;
@@ -41,6 +44,7 @@ class Product
      * @var string $createdFromIp
      *
      * @Gedmo\IpTraceable(on="create")
+     *
      * @ORM\Column(type="string", length=45, nullable=true)
      */
     private $createdFromIp;
@@ -49,6 +53,7 @@ class Product
      * @var string|null
      *
      * @Gedmo\Blameable(on="update")
+     *
      * @ORM\Column(type="string")
      */
     private $updatedBy;
@@ -56,6 +61,7 @@ class Product
      * @var \DateTime $updated
      *
      * @Gedmo\Timestampable(on="update")
+     *
      * @ORM\Column(type="datetime")
      */
     private $updated;
@@ -63,6 +69,7 @@ class Product
      * @var string $updatedFromIp
      *
      * @Gedmo\IpTraceable(on="update")
+     *
      * @ORM\Column(type="string", length=45, nullable=true)
      */
     private $updatedFromIp;
@@ -145,5 +152,4 @@ class Product
     {
         $this->deletedAt = $deletedAt;
     }
-
 }

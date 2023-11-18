@@ -12,11 +12,10 @@ declare(strict_types=1);
  */
 
 /**
- * Add the classes you want to access on PsySH - 
+ * Add the classes you want to access on PsySH -
  * runtime developer console, interactive debugger and REPL for PHP
  */
 return array(
     __DIR__ . "\Entities\Product.php",
     //
 );
-
