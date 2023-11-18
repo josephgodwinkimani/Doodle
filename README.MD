@@ -2,7 +2,7 @@
 
 [![Coding standards](https://github.com/josephgodwinkimani/doodle/actions/workflows/phpcs.yml/badge.svg)](https://github.com/josephgodwinkimani/doodle/actions/workflows/phpcs.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/b9692aed389747a4a5f0707814dbf985)](https://app.codacy.com/gh/josephgodwinkimani/Doodle/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Known Vulnerabilities](https://snyk.io/test/github/josephgodwinkimani/Doodle/badge.svg)]
+[![Known Vulnerabilities](https://snyk.io/test/github/josephgodwinkimani/Doodle/badge.svg)](https://snyk.io/test/github/josephgodwinkimani/Doodle)
 
 
 [Doodle][1] _- The PHP Framework_ is an attempt to create a simple and minimal **HTTP PHP framework** whose goal is **make the code more adaptable to change without breaking, as well as to make it simple to understand and modify**. Based on [Symfony Components][2] and other libraries.
